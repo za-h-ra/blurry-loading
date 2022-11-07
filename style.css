@@ -16,3 +16,32 @@ body {
   margin: 0;
   overflow: hidden;
 }
+
+.bg-img {
+  background: url(assets/spa-lady.jpg) no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 50;
+  width: 65vw;
+  height: 100vh;
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.blur {
+  width: 100vw;
+  height: 100vh;
+  font-size: 50px;
+  color: #fff;
+  filter: blur(0px);
+  background-image: linear-gradient(60deg, #b8e994, #079992);
+}
+
+.loading-text {
+  position: absolute;
+  top: 50;
+  left: 50;
+  z-index: 900;
+  color: #fff;
+  font-size: 50px;
+}
